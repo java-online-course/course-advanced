@@ -1,0 +1,167 @@
+---
+---
+
+@import "{{ site.theme }}";
+body {
+  font-size: 18px;
+  color: #000000;
+}
+
+blockquote {
+  border-left: 4px solid #38c2d6;
+}
+
+#project_title {
+  text-align: center;
+}
+#project_title a {
+  color: white;
+  text-decoration: none;
+}
+
+#project_title a:hover {
+  border-bottom: 2px dashed #9bc837;
+  text-decoration: none;
+}
+
+#main_content {
+  max-width: 900px;
+}
+
+.inner {
+  max-width: 900px;
+}
+
+#main_content_wrap {
+  min-height: 800px;
+}
+
+#forkme_banner {
+  display: none;
+}
+
+#main_content_wrap {
+  background: #fdfdfd;
+}
+
+img {
+  max-width: 840px;
+}
+
+#header_wrap .inner {
+  padding: 30px 10px 0px 10px;
+}
+
+header span.epam-style-bracket {
+  color: #37c2d7;
+}
+
+/** Менюшка **/
+#mainmenu {
+  position: relative;
+  background: linear-gradient(to top, #373737, #323232);
+  height: 40px;
+  margin-top: 30px;
+  padding: 0;
+  width: 100%;
+  z-index: 10
+}
+#mainmenu ul {
+  clear: left;
+  position: relative;
+  right: 50%;
+  height: 40px;
+  float: right;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/** Основные пункты **/
+#mainmenu > ul > li {
+  position: relative;
+  left: 50%;
+  float: left;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+}
+#mainmenu > ul > li > a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px;
+  line-height: 40px;
+}
+#mainmenu > ul > li:first-child > a {
+  border: none;
+}
+#mainmenu > ul > li:hover > a, #mainmenu > ul > li.hover > a, #mainmenu > ul > li.active > a {
+  color: #fff;
+}
+#mainmenu > ul > li:hover {
+  background: #404040;
+}
+
+/* Выпадающие подпункты */
+#mainmenu ul li ul {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  display: none;
+  list-style: none;
+  visibility: hidden;
+  padding: 0;
+  margin: 0;
+  width: 350px;
+}
+#mainmenu > ul > li ul li {
+  background-color: #404040;
+  position: relative;
+  left: 0;
+  display: list-item;
+  float: none;
+  height: auto;
+  margin: 0;
+  text-align: left;
+}
+#mainmenu ul li ul li a {
+  border-bottom: 1px solid #464646;
+  display: block;
+  color: #fff;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+#mainmenu ul li ul li.parent a {
+  position: relative;
+}
+#mainmenu ul li ul > li.parent > a::before {
+  border-top: 1px solid #fff;
+  order-right: 1px solid #fff;
+  ontent: "";
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  height: 6px;
+  width: 6px;
+}
+#mainmenu ul li ul li:hover {
+  background-color: #333333;
+}
+#mainmenu ul li:hover ul, #mainmenu ul li.hover ul {
+  display: block;
+}
+#mainmenu ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+  margin: 0;
+}
+#mainmenu ul li ul li ul {
+  top: 0;
+  left: 200px;
+  margin: 0 0 0 20px;
+  width: 180px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <meta name="description" content="Продвинутый курс обучения программированию на Java в городе Ижевске" />
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="shortcut icon" type="image/png" href="/course/favicon.png">
+
+    {% seo %}
+</head>
+
+<body>
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+    <header class="inner">
+        <h1 id="project_title">
+            <a href="{{site.baseurl}}"><span class="epam-style-bracket">< </span>{{site.title}}<span class="epam-style-bracket"> ></span></a>
+        </h1>
+        <div id="mainmenu">
+            <ul>
+                <li><a href="{{site.baseurl}}">Курс</a>
+                    <ul>
+                        <li><a href="{{site.baseurl}}">Главная</a></li>
+                        <li><a href="{{site.about}}">Описание курса</a></li>
+                        <li><a href="{{site.news}}">Новости курса</a></li>
+                        <li><a href="{{site.contenturl}}">Содержание курса</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{site.contenturl}}#описание-правил-и-процессов">Правила и процессы</a>
+                    <ul>
+                        <li><a href="{{site.materialsurl}}general/education_start">Старт процесса обучения</a></li>
+                        <li><a href="{{site.materialsurl}}general/grow_intro">Правила работы с платформой Grow.by</a></li>
+                        <li><a href="{{site.materialsurl}}general/learn_intro">Правила работы с платформой Learn.by</a></li>
+                        <li><a href="{{site.materialsurl}}general/practical_tasks_completing_rules">Правила выполнения практических заданий</a></li>
+                        <li><a href="{{site.materialsurl}}general/typical_mistakes">Типичные ошибки при выполнении практических работ</a></li>
+                        <li><a href="{{site.materialsurl}}general/practical_tasks_evaluation_rules">Критерии выставления оценки для практических работ ментором</a></li>
+                        <li><a href="{{site.materialsurl}}general/faq">Часто задаваемые вопросы (FAQ)</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{site.contenturl}}#базовые-модули">Базовые модули</a>
+                    <ul>
+                        <li><a href="{{site.materialsurl}}git/git">Системы контроля версий - Git</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{site.contenturl}}#продвинутые-модули">Продвинутые модули</a>
+                    <ul>
+                        <li><a href="{{site.materialsurl}}maven/maven">Введение в сборщик проектов Maven</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{site.contenturl}}#завершение-обучения">Завершение обучения</a>
+                    <ul>
+                        <li><a href="{{site.materialsurl}}final_interview/final_interview">Подготовка к интервью</a></li>
+                        <li><a href="{{site.materialsurl}}next_steps/next_steps">Завершение обучения</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
+        {{ content }}
+    </section>
+</div>
+
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+    <footer class="inner">
+        <p class="copyright">Developed by Timur Sokolov and Ilia Isakhin</p>
+        <p>We believe that knowledge is the most powerful tool you can use to change your life for better.</p>
+        <p>© 2019 EPAM Systems, Izhevsk</p>
+    </footer>
+</div>
+
+{% if site.google_analytics %}
+<script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+
+</script>
+{% endif %}
+</body>
+</html>

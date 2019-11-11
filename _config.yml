@@ -1,1 +1,9 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
+title: "Продвинутый курс обучения программированию на Java"
+baseurl: "/course-advanced/"
+about: "/course-advanced/about"
+news: "/course-advanced/news"
+contenturl: "/course-advanced/content"
+materialsurl: "/course-advanced/materials/"
+plugins:
+  - jekyll-seo-tag

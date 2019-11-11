@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+Добро пожаловать на страницу Ижевского курса обучения программированию на языке Java.
 
-You can use the [editor on GitHub](https://github.com/java-online-course/course-advanced/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Данный **онлайн курс** разработан с целью обучения основам языка Java и подготовки к прохождению собеседования на **внутренние курсы** в **[Ижевский](https://www.youtube.com/watch?v=8z2ZWhGYU8A){:target="_blank"}** офис компании **[EPAM](https://www.epam.com){:target="_blank"}**.  
+После успешного прохождения **внутреннего курса** обучения кандидаты могут быть зачислены в штат компании.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Полную информацию о курсе можно найти в разделе **[Описание курса]({{site.about}})**.
 
-### Markdown
+Последние новости курса
+---------------------
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+>**[Посмотреть все новости курса]({{site.news}})**
 
-```markdown
-Syntax highlighted code block
+**10-11-19 - Базовые понятия Java**  
+Модуль "**[Базовые понятия Java]({{site.materialsurl}}java_basics/java_basics)**" доступен для изучения.
 
-# Header 1
-## Header 2
-### Header 3
+**07-11-19 - Введение в платформу Java**  
+Модуль "**[Введение в платформу Java]({{site.materialsurl}}java_intro/java_intro)**" доступен для изучения.
 
-- Bulleted
-- List
+**06-11-19 - Системы контроля версий - Git**  
+Модуль "**[Системы контроля версий - Git]({{site.materialsurl}}git/git)**" доступен для изучения.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/java-online-course/course-advanced/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Важно: Не все модули на текущий момент доступны для прохождения
+Мы будем оповещать, о каждом новом модуле, который становится доступным для прохождения.  
+Список доступных для изучения модулей будет обновляться в разделе новостей.  
+**Весь курс будет полностью доступен для прохождения приблизительно к 19 ноября**.
